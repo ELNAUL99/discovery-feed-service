@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+
+# Go
+vendor/
+bin/
+*.test
+*.out
+coverage.out
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Docs
+*.md
+LICENSE
+
+# Scripts (keep for local)
+scripts/local/
