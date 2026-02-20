@@ -69,7 +69,7 @@ Thumbs.db
 .ruff_cache/
 .coverage
 
-# Generated docs/assets from local experimentation
+# Generated docs/assets from local experimentation.
 *.pdf
 *.png
 *.jpg
