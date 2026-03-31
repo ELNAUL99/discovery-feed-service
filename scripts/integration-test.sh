@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+
 BASE_URL="http://localhost:8080"
 USER_ID="11111111-1111-1111-1111-111111111111"
 
