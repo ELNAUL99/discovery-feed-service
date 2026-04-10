@@ -12,6 +12,7 @@ build:
 # Run locally (requires deps)
 run:
 	$(GO) run ./cmd/api
+
 # Run tests
 test:
 	$(GO) test -v ./...
