@@ -1,7 +1,6 @@
 FROM golang:1.22-alpine AS builder
 
 WORKDIR /app
-
 # Install dependencies
 RUN apk add --no-cache git
 
