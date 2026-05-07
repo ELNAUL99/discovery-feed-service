@@ -1,0 +1,79 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.key
+*.pem
+
+# Go build outputs
+/bin/
+/dist/
+/build/
+*.exe
+*.test
+*.out
+*.prof
+coverage.out
+coverage.html
+
+# Go workspace and vendored dependencies
+go.work
+go.work.sum
+/vendor/
+
+# Test and benchmark artifacts
+*.coverprofile
+*.bench
+test-results/
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+*.pid
+*.sock
+
+# Local database/cache data
+postgres_data/
+redis_data/
+grafana_data/
+*.db
+*.sqlite
+*.sqlite3
+dump.sql
+*.dump
+
+# Docker and compose local overrides
+docker-compose.override.yml
+compose.override.yml
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+._*
+Thumbs.db
+
+# Tool caches
+.cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Generated docs/assets from local experimentation
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
