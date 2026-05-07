@@ -1,4 +1,4 @@
-package 
+package ai
 
 import (
 	"bytes"
