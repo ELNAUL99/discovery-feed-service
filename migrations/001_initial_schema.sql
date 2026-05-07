@@ -1,6 +1,5 @@
 -- Migration: Initial schema for Discovery Feed Service
 -- Created: 2024-01-01
-
 -- Venues table
 CREATE TABLE IF NOT EXISTS venues (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
